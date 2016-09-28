@@ -12,7 +12,8 @@ Meteor.startup(() => {
       // to queue other method calls (see Meteor docs)
       this.unblock();
       var future=new Future();
-      var command="curl -s -k --cert client.crt --key client.key https://192.168.1.79:8443/1.0 | jq .metadata.auth";
+// https://insights.ubuntu.com/2016/04/19/directly-interacting-with-the-lxd-api/
+      var command="curl -s -k --cert client.crt --key client.key https://192.168.1.79:8443/1.0/containers/lxd-gui-app-01/snapshots/ | jq .";
       exec(command,function(error,stdout,stderr){
         if(error){
           console.log(error);
