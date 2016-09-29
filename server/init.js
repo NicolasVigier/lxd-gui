@@ -1,6 +1,9 @@
 import { Meteor } from 'meteor/meteor';
 
 Meteor.startup(() => {
+
+  Session.set("container", "my-container");
+
   // code to run on server at startup
   var Future = Npm.require("fibers/future");
   var exec = Npm.require("child_process").exec;
