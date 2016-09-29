@@ -1,5 +1,11 @@
 Containers = new Meteor.Collection('containers');
 
+Containers.allow({
+  insert: function (userId, doc) {
+    return !!userId;
+  }
+});
+
 ContainerSchema = new SimpleSchema({
   name: {
     type: String,
