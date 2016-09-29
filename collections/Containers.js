@@ -20,6 +20,10 @@ ContainerSchema = new SimpleSchema({
   img_alias: {
     type: String,
     label: "Alias image"
+  },
+  host: {
+    type: String,
+    label: "Hote LXD"
   }
 });
 
