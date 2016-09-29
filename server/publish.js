@@ -4,5 +4,6 @@ Meteor.publish('containers', function () {
 });
 
 Meteor.publish('hosts', function () {
-  return Hosts.find({creator: this.userId});
+  //return Hosts.find({creator: this.userId});
+  return Hosts.find({});
 });
