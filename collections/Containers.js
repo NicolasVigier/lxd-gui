@@ -23,4 +23,4 @@ ContainerSchema = new SimpleSchema({
   }
 });
 
-Hosts.attachSchema(ContainerSchema);
+Containers.attachSchema(ContainerSchema);
