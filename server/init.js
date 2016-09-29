@@ -3,11 +3,6 @@ import { Session } from 'meteor/session';
 
 Meteor.startup(() => {
 
-  Meteor.call('runCode', function (err, response) {
-    console.log(response);
-  });
-
-  Session.setDefault("container", "my-container");
 
   // code to run on server at startup
   var Future = Npm.require("fibers/future");
