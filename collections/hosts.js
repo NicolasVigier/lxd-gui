@@ -1,4 +1,4 @@
-Hosts = new Meteor.Collection('hosts');
+Hosts = new Mongo.Collection('hosts');
 
 HostSchema = new SimpleSchema({
   hostname: {
