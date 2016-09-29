@@ -1,6 +1,12 @@
 Hosts = new Mongo.Collection('hosts');
 
-HostSchema = new SimpleSchema({
+Hosts.allow({
+  insert: function (userId, doc) {
+    return !!userId;
+  }
+});
+
+Host = new SimpleSchema({
   hostname: {
     type: String,
     label: "Hostname"
@@ -22,4 +28,4 @@ HostSchema = new SimpleSchema({
   }
 });
 
-Hosts.attachSchema(HostSchema);
+Hosts.attachSchema(Host);
