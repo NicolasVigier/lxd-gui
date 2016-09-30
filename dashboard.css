@@ -36,6 +36,10 @@ body {
 .navbar-fixed-top {
   border: 0;
 }
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #eb7724;
+}
 
 /*
  * Sidebar
