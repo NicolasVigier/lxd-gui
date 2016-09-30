@@ -135,3 +135,18 @@ body {
   width: 70px;
   height: 70px;
 }
+
+.host-down {
+  width: 70px;
+  height: 70px;
+}
+
+.host-warning {
+  width: 70px;
+  height: 70px;
+}
+
+.host-alert {
+  width: 70px;
+  height: 70px;
+}
