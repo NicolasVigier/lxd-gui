@@ -73,6 +73,10 @@ body {
   padding-left: 20px;
   color: #eb7724;
 }
+.nav-sidebar > .active > a:hover {
+  color: #428bca;
+}
+
 .nav-sidebar > .active > a,
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
