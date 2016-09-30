@@ -11,6 +11,10 @@ Host = new SimpleSchema({
     type: String,
     label: "Hostname"
   },
+  ip_address: {
+    type: String,
+    label: "Adresse IP"
+  },
   desc: {
     type: String,
     label: "Description"
