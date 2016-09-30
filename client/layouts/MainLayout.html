@@ -25,10 +25,13 @@
     </div>
   </nav>
 
-
-		<main>
-			{{> Template.dynamic template=main}}
-		</main>
-
+	<div class="container-fluid">
+		<div class="row">
+			{{> SideNav}}
+			<main>
+				{{> Template.dynamic template=main}}
+			</main>
+		</div>
+	</div>
 
 </template>
