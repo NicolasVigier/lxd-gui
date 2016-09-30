@@ -13,20 +13,18 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Settings</a></li>
+          <li><a href="#"><i class="fa fa-list"></i> Dashboard</a></li>
+          <li><a href="#"><i class="fa fa-map-o"></i> Settings</a></li>
           <li><a href="#">Profile</a></li>
           <li><a href="#">{{> loginButtons}}</a></li>
         </ul>
         <form class="navbar-form navbar-right">
-          <input type="text" class="form-control" placeholder="Search...">
+          <input type="text" class="form-control" placeholder="Rechercher...">
         </form>
       </div>
     </div>
   </nav>
 
-
-		{{> SideNav}}
 
 		<main>
 			{{> Template.dynamic template=main}}
