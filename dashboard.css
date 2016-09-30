@@ -130,3 +130,8 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+.host-up {
+  width: 70px;
+  height: 70px;
+}
