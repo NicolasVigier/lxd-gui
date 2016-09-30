@@ -5,12 +5,12 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  background-color: #2b4257;
+  background-color: #212636;
   color: #cfd2da;
 }
 
 .container-fluid {
-  background-color: #212636;
+  background-color: #2b4257;
 }
 
 .main {
