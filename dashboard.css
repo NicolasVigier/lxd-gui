@@ -5,6 +5,8 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
+  background-color: #252830;
+  color: #cfd2da;
 }
 
 .container-fluid {
@@ -111,6 +113,9 @@ body {
   margin-top: 0;
 }
 
+.main h1, .main h2, .main h3, .main h4, .main h5 {
+  color: #cfd2da;
+}
 
 /*
  * Placeholder dashboard ideas
